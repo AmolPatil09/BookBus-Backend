@@ -1,0 +1,323 @@
+2024-05-11T14:45:46.376Z - TypeError: userModel.register is not a function
+    at userService.register (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:11:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.register (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:7:21)
+2024-05-11T14:46:40.078Z - TypeError: userModel.register is not a function
+    at userService.register (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:11:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.register (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:7:21)
+2024-05-11T14:47:50.220Z - MongoServerError: E11000 duplicate key error collection: Fooders.users index: userName_1 dup key: { userName: "amol@123" }
+    at InsertOneOperation.execute (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\mongodb\lib\operations\insert.js:51:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperation (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\mongodb\lib\operations\execute_operation.js:126:16)
+2024-05-11T17:24:48.619Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:44:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T17:25:42.078Z - ReferenceError: login is not defined
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:28:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T17:27:11.817Z - TypeError: res.cookies is not a function
+    at userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:24:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-11T18:10:58.987Z - TypeError: setUser is not a function
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T18:34:36.204Z - Error: Somthing went wrong
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\sessionService.js:8:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T18:38:06.534Z - Error: Somthing went wrong
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\sessionService.js:8:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T18:45:56.736Z - Error: Somthing went wrong
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\sessionService.js:18:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T18:47:02.832Z - Error: Somthing went wrong
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\sessionService.js:19:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T18:48:40.277Z - Error: Somthing went wrong
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\sessionService.js:20:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T18:49:11.528Z - Error: Somthing went wrong
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\sessionService.js:21:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T18:49:54.578Z - Error: Somthing went wrong
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\sessionService.js:21:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T18:56:23.376Z - Error: user alredy login
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\sessionService.js:8:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T18:57:01.869Z - Error: user alredy login
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\sessionService.js:8:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-11T18:58:15.486Z - Error: user alredy login
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\sessionService.js:8:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-12T05:37:33.201Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Middelware\auth.js:9:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:47:12)
+2024-05-12T05:38:21.948Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Middelware\auth.js:10:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:47:12)
+2024-05-12T05:38:53.584Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Middelware\auth.js:10:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:47:12)
+2024-05-12T05:39:16.763Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Middelware\auth.js:10:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:47:12)
+2024-05-12T05:39:41.525Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Middelware\auth.js:10:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:47:12)
+2024-05-12T05:39:44.633Z - Error: user alredy login
+    at sessionService.createSession (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\sessionService.js:8:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userService.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Service\userService.js:30:35)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Controllers\userController.js:23:17)
+2024-05-12T05:40:00.513Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Middelware\auth.js:10:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:47:12)
+2024-05-12T05:44:09.783Z - ReferenceError: res is not defined
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Routes\hotelsRoute.js:8:5
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:47:12)
+2024-05-12T05:44:57.710Z - TypeError: res.send is not a function
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Routes\hotelsRoute.js:8:9
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\node_modules\express\lib\router\index.js:47:12)
+2024-05-12T05:48:38.054Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Middelware\auth.js:19:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-12T05:49:07.747Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Middelware\auth.js:19:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-12T05:51:06.974Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Middelware\auth.js:19:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-12T05:51:48.181Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\Node Backend for Fooders\Middelware\auth.js:19:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-30T09:50:16.653Z - SyntaxError: Unexpected string in JSON at position 56
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-08-30T09:53:45.338Z - SyntaxError: Unexpected token } in JSON at position 62
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-08-30T09:54:40.375Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Service\userService.js:42:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Controllers\userController.js:23:17)
+2024-09-12T04:23:40.111Z - Error: Expected "payload" to be a plain object.
+    at validate (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:44:11)
+    at validatePayload (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:66:10)
+    at module.exports [as sign] (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:144:7)
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Service\userService.js:33:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Controllers\userController.js:23:17)
+2024-09-12T04:44:45.815Z - Error: "httpOnly" is not allowed in "options"
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:51:17
+    at Array.forEach (<anonymous>)
+    at validate (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:47:6)
+    at validateOptions (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:62:10)
+    at module.exports [as sign] (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:171:5)
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Service\userService.js:44:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Controllers\userController.js:23:39)
+2024-09-12T04:44:52.387Z - Error: "httpOnly" is not allowed in "options"
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:51:17
+    at Array.forEach (<anonymous>)
+    at validate (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:47:6)
+    at validateOptions (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:62:10)
+    at module.exports [as sign] (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:171:5)
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Service\userService.js:44:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Controllers\userController.js:23:39)
+2024-09-12T04:45:33.846Z - Error: "HttpOnly" is not allowed in "options"
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:51:17
+    at Array.forEach (<anonymous>)
+    at validate (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:47:6)
+    at validateOptions (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:62:10)
+    at module.exports [as sign] (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:171:5)
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Service\userService.js:44:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Controllers\userController.js:23:39)
+2024-09-12T04:47:15.989Z - Error: "httpOnly" is not allowed in "options"
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:51:17
+    at Array.forEach (<anonymous>)
+    at validate (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:47:6)
+    at validateOptions (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:62:10)
+    at module.exports [as sign] (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:171:5)
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Service\userService.js:44:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Controllers\userController.js:23:39)
+2024-09-12T04:48:49.933Z - Error: "secure" is not allowed in "options"
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:51:17
+    at Array.forEach (<anonymous>)
+    at validate (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:47:6)
+    at validateOptions (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:62:10)
+    at module.exports [as sign] (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\jsonwebtoken\sign.js:171:5)
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Service\userService.js:43:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Controllers\userController.js:23:39)
+2024-09-12T06:55:45.797Z - ReferenceError: jwt is not defined
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Middelware\auth.js:15:20)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:47:12)
+2024-09-12T06:56:28.341Z - ReferenceError: token is not defined
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Middelware\auth.js:17:31)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:47:12)
+2024-09-12T06:56:54.475Z - ReferenceError: jwtSecretKey is not defined
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Middelware\auth.js:17:44)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:47:12)
+2024-09-12T06:57:37.466Z - ReferenceError: user is not defined
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Middelware\auth.js:23:14)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:47:12)
+2024-09-12T07:05:05.584Z - Error: unathorized user
+    at auth.restrictToLoggedinUserOnly (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Middelware\auth.js:12:17)
+    at Layer.handle [as handle_request] (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\node_modules\express\lib\router\index.js:47:12)
+2024-09-12T07:05:23.499Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Service\userService.js:63:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Controllers\userController.js:23:39)
+2024-09-12T07:05:48.926Z - Error: User not exist
+    at userService.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Service\userService.js:63:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async userController.login (C:\Users\AMOL\OneDrive\Desktop\BookBus Backend\Controllers\userController.js:23:39)
